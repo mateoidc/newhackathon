@@ -1,11 +1,11 @@
 
    @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap%27');
    
-   * {
-    padding: 0px;
-    margin: 0px;
+   /* * {
+     padding: 0px;
+    margin: 0px; 
     box-sizing: border-box;
-}
+} */
    
    body {
         background-color: white;
@@ -61,7 +61,7 @@
          margin: 10px;
         }
         /* HERO */
-        .hero-image {
+        /* .hero-image {
           background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("https://www.denofgeek.com/wp-content/uploads/2020/07/project-power-poster-netflix.jpg?fit=1200%2C680");
           height: 85vh;
           background-position: center;
@@ -72,9 +72,21 @@
           background-attachment: fixed;
           display: flex;
           align-items: center;
-          
+          border-radius: 20px;
+        } */
+
+        .hero-image {
+          background-image:url("https://www.denofgeek.com/wp-content/uploads/2020/07/project-power-poster-netflix.jpg?fit=1200%2C680");
+          height: 50%;
+          background-position: center;
+          background-repeat: no-repeat; 
+          background-size: cover;
+          padding: 180px;
+          margin: 10px auto;
+          border-radius: 20px;
           
         }
+
         .hero-text {
           color: white;
           
@@ -149,12 +161,10 @@
             display: flex;
             justify-content: center;
             align-items: center;
-
-            height: 60vh;
+            height: 550px;
             background-image: url("https://3er1viui9wo30pkxh1v2nh4w-wpengine.netdna-ssl.com/wp-content/uploads/sites/93/2016/01/02-EXPO2015-51.jpg");
             margin-top: 80px;
             border-radius: 20px;
-            background-attachment: fixed;
             background-position: bottom;
             background-size: cover;
             border-radius: 20px;
@@ -179,7 +189,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 60vh;
+            height: 550px;
             background-image: url("https://www.rhythmsystems.com/hubfs/iStock-1028038004.jpg");
             margin-top: 80px;
             border-radius: 20px;
@@ -232,7 +242,7 @@
         .fas {
           font-size: 50px;
           color: black;
-          margin-left: 30px;
+          margin-left: 40px;
         }
         i {
           color: black;
